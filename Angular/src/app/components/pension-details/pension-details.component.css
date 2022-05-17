@@ -1,0 +1,18 @@
+.outer-div {
+    background-color: darkblue;
+    color: white;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.date-input{
+    margin-top: 0%;
+    width: 75%;
+}
+
+.break-div{
+    white-space: pre-line;
+}

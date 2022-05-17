@@ -1,0 +1,1 @@
+insert into user_credentials values ('admin1', '$2a$10$t5w6ZvipyDQD.uevZ40h3ul4877BMH.KWdUBu2m5sztiVxXkGTHsS', 'ADMIN'),('admin2', '$2a$10$t5w6ZvipyDQD.uevZ40h3ul4877BMH.KWdUBu2m5sztiVxXkGTHsS', 'ADMIN'),('admin3', '$2a$10$t5w6ZvipyDQD.uevZ40h3ul4877BMH.KWdUBu2m5sztiVxXkGTHsS', 'ADMIN'),('admin4', '$2a$10$t5w6ZvipyDQD.uevZ40h3ul4877BMH.KWdUBu2m5sztiVxXkGTHsS', 'ADMIN');

@@ -1,0 +1,43 @@
+.bg-dark-blue {
+    background-color: darkblue;
+    color: white;
+}
+
+.bg-dark-blue:hover {
+    background-color: blue;
+}
+
+.curved-div {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.outer-card-div {
+    background-color: rgb(246, 238, 227);
+    border-style: none;
+}
+
+.inner-card-div {
+    padding-top: 0%;
+    background-color: rgb(246, 238, 227);
+    border-style: none;
+}
+
+#pension-amount {
+    height: 25em;
+    background-image: url("../../../assets/images/2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#process-pension {
+    height: 25em;
+    background-image: url("../../../assets/images/3.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}

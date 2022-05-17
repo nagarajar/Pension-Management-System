@@ -1,0 +1,57 @@
+{"properties": [
+  {
+    "name": "app.secret-key",
+    "type": "java.lang.String",
+    "description": "A description for 'app.secret-key'"
+  },
+  {
+    "name": "jwtUtil.expired-message",
+    "type": "java.lang.String",
+    "description": "A description for 'jwtUtil.expired-message'"
+  },
+  {
+    "name": "jwtUtil.malformedMessage",
+    "type": "java.lang.String",
+    "description": "A description for 'jwtUtil.malformedMessage'"
+  },
+  {
+    "name": "userDetails.error-message",
+    "type": "java.lang.String",
+    "description": "A description for 'userDetails.error-message'"
+  },
+  {
+    "name": "app.jwtValidityMinutes",
+    "type": "java.lang.String",
+    "description": "A description for 'app.jwtValidityMinutes'"
+  },
+  {
+    "name": "jwtUtil.signatureMessage",
+    "type": "java.lang.String",
+    "description": "A description for 'jwtUtil.signatureMessage'"
+  },
+  {
+    "name": "jwtUtil.nullOrEmptyMessage",
+    "type": "java.lang.String",
+    "description": "A description for 'jwtUtil.nullOrEmptyMessage'"
+  },
+  {
+    "name": "jwtUtil.unsupportedMessage",
+    "type": "java.lang.String",
+    "description": "A description for 'jwtUtil.unsupportedMessage'"
+  },
+  {
+    "name": "userDetails.badCredentialsMessage",
+    "type": "java.lang.String",
+    "description": "A description for 'userDetails.badCredentialsMessage'"
+  },
+  {
+    "name": "userDetails.disabledAccountMessage",
+    "type": "java.lang.String",
+    "description": "A description for 'userDetails.disabledAccountMessage'"
+  },
+  {
+    "name": "userDetails.lockedAccountMessage",
+    "type": "java.lang.String",
+    "description": "A description for 'userDetails.lockedAccountMessage'"
+  }
+]}

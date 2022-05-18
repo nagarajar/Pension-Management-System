@@ -1,11 +1,4 @@
-# POD-4-pension-management
-Code for MFPE for the project, Pension Management by POD-4 of cohort INTCDE21IJ028
-
-## Team Members
-1. Shubham Nawani (POD Leader)
-2. Anas Zubair
-3. Sreekanth G
-4. Amrithya Balaji
+# pension-management-system
 
 ## The application has the following services:
 

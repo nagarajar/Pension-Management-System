@@ -1,0 +1,10 @@
+version: 1.0
+Resources:
+  - TargetService:
+      Type: AWS::ECS::Service
+      Properties:
+        TaskDefinition: "arn:aws:ecs:ap-south-1:156962844638:task-definition/nagarajar1-eureka-server:1"
+        LoadBalancerInfo:
+          ContainerName: "nagarajar1-eureka-server"
+          ContainerPort: "8761"
+        PlatformVersion: "LATEST"

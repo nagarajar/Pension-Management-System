@@ -22,7 +22,7 @@ phases:
       - echo Build completed on `date`
       - docker push 156962844638.dkr.ecr.ap-south-1.amazonaws.com/nagarajar-pension-management-system-registry:eureka-server
       - echo Writing definition files
-      - printf '[{"name":"ij028-eureka-server-container","imageUri":"%s"}]' 156962844638.dkr.ecr.ap-south-1.amazonaws.com/nagarajar-pension-management-system-registry:eureka-server > taskdefinition.json
+      - printf '[{"name":"ij028-eureka-server-container","imageUri":"%s"}]' 156962844638.dkr.ecr.ap-south-1.amazonaws.com/nagarajar-pension-management-system-registry:eureka-server > imagedefinition.json
 
 artifacts:
-  files: eureka-server/taskdefinition.json
+  files: eureka-server/imagedefinition.json

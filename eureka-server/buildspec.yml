@@ -25,4 +25,5 @@ phases:
       - printf '[{"name":"ij028-eureka-server-container","imageUri":"%s"}]' 156962844638.dkr.ecr.ap-south-1.amazonaws.com/nagarajar-pension-management-system-registry:eureka-server > imagedefinition.json
 
 artifacts:
-  files: eureka-server/imagedefinition.json
+  files:
+  - imagedefinitions.json

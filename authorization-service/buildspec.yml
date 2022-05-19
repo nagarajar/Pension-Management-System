@@ -17,13 +17,13 @@ phases:
       - mvn clean package
       - echo Building the docker image
       - docker build -t authorization-service .
-      - docker tag authorization-service 941516478045.dkr.ecr.$AWS_REGION.amazonaws.com/pod4-service-registry:authorization-service
+      - docker tag authorization-service 156962844638.dkr.ecr.ap-south-1.amazonaws.com/nagarajar-pension-management-system-registry:authorization-service
   post_build:
     commands:
       - echo Build completed on `date`
-      - docker push 941516478045.dkr.ecr.$AWS_REGION.amazonaws.com/pod4-service-registry:authorization-service
+      - docker push 156962844638.dkr.ecr.ap-south-1.amazonaws.com/nagarajar-pension-management-system-registry:authorization-service
       - echo Writing definition files
-      - printf '[{"name":"ij028-pod4-authorization-service-container","imageUri":"%s"}]' 941516478045.dkr.ecr.$AWS_REGION.amazonaws.com/pod4-service-registry:authorization-service > taskdefinition.json
+      - printf '[{"name":"ij028-authorization-service-container","imageUri":"%s"}]' 156962844638.dkr.ecr.ap-south-1.amazonaws.com/nagarajar-pension-management-system-registry:authorization-service > taskdefinition.json
 
 artifacts:
   files: authorization-service/taskdefinition.json

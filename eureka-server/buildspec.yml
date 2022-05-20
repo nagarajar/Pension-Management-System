@@ -26,4 +26,4 @@ phases:
       - printf '[{"name":"eureka-server-container","imageUri":"%s"}]' 156962844638.dkr.ecr.ap-south-1.amazonaws.com/nagarajar-pension-management-system-registry:eureka-server > taskdefinition.json
 
 artifacts:
-  files: eureka-server/taskdefinition.json
+  files: eureka-server/taskdefinition.json 
